@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT LOGIN (DBS)>
+<!ELEMENT DBS (DateBase*)>
+<!ELEMENT DataBase (user*)>
+<!ATTLIST DataBase url CDATA #REQUIRED>
+<!ATTLIST user savePWD (true|false) #REQUIRED
+name CDATA #REQUIRED
+passWord CDATA #REQUIRED
+>

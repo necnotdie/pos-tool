@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="pos">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pos/org.CBank.jar!/" />
+      <root url="jar://$PROJECT_DIR$/pos/pos.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

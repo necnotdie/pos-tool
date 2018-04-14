@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pos-tool-2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/pos-tool-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

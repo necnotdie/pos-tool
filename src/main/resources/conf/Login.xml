@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LOGIN>
+	<DBS>
+		<DataBase url="10.133.99.12:1521/fswxtestdb">
+			<user savePWD="true" name="picc" passWord="test"/>
+		</DataBase>
+	</DBS>
+	<DefaultDataBase DataBaseIndex="0" userIndex="0"/>
+</LOGIN>

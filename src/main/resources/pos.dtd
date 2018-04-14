@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pos (tables|set)>
+<!ELEMENT tables (table+)>
+<!ATTLIST table 
+	class CDATA #REQUIRED
+	name CDATA #REQUIRED
+>
+<!ELEMENT table (data*)>
+<!ATTLIST data
+	type (string|integer|byte|short|long|double|float|char|object|boolean) #REQUIRED
+	name CDATA #REQUIRED
+>
+<!ATTLIST set
+	model (default|exit|minisize) #REQUIRED
+>

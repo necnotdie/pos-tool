@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pos SYSTEM "pos.dtd">
+<pos>
+	<tables>
+		<table class="org.pos.login.LoginTable" name="Login">
+			<data name="DataBase" type="object" />
+			<register-info></register-info>
+			<register-info></register-info>
+			<register-info></register-info>
+		</table>
+		<table class="org.pos.operation.YWTable" name="Sql">
+			<register-info></register-info>
+			<register-info></register-info>
+			<register-info></register-info>
+		</table>
+		<table class="org.pos.select.ScTable" name="Query">
+			<register-info></register-info>
+			<register-info></register-info>
+			<register-info></register-info>
+		</table>
+		<table class="org.pos.ration.RationTable" name="Ration">
+			<register-info></register-info>
+			<register-info></register-info>
+			<register-info></register-info>
+		</table>
+	</tables>
+	<public-libs>
+		<register-info></register-info>
+	</public-libs>
+</pos>
